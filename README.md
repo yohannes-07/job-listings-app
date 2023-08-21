@@ -46,5 +46,4 @@ Contribution
 Contributions are more than welcome! Feel free to report bugs, suggest improvements, or submit pull requests to enhance the app's functionality and user experience.
 License
 
-This project is licensed under the MIT License. For more details, see the LICENSE file.
 
