@@ -1,34 +1,50 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Job Listings App
+
+## Overview
+
+The Job Listings App is a web application built with Next.js, Redux Toolkit, RTK Query, JSON Server, and Tailwind CSS. It allows users to browse and search for job listings using various criteria.
+
+## Features
+
+- Display a list of job listings with detailed information.
+- Implement search functionality to filter job listings based on keywords, roles, levels, languages, and tools.
+- Provide a responsive design that adapts to different screen sizes.
+- Utilize Redux Toolkit and RTK Query for efficient state management and API fetching.
+- Simulate a mock API using JSON Server to provide job data.
+- Style the user interface using Tailwind CSS for quick and responsive designs.
+
+## Prerequisites
+
+- Node.js (v14+)
+- npm (v6+)
 
 ## Getting Started
 
-First, run the development server:
+1. Clone the repository:
 
-```bash
+   ```bash
+   git clone https://github.com/yohannes-07/job-listings-app.git
+
+cd job-listings-app
+npm install
+npm run json-server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Search Functionality
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The app features a search bar that empowers users to find job listings by entering keywords. The search feature filters job listings based on role, level, languages, and tools. It is case-insensitive, allowing users to search with both uppercase and lowercase letters for a seamless experience.
+Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+    Next.js: A React framework for building server-rendered applications.
+    Redux Toolkit: An opinionated toolkit for efficient Redux development.
+    RTK Query: A data fetching and caching library built on Redux Toolkit.
+    JSON Server: A mock API server for testing and development purposes.
+    Tailwind CSS: A utility-first CSS framework for creating responsive designs.
 
-## Learn More
+Contribution
 
-To learn more about Next.js, take a look at the following resources:
+Contributions are more than welcome! Feel free to report bugs, suggest improvements, or submit pull requests to enhance the app's functionality and user experience.
+License
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This project is licensed under the MIT License. For more details, see the LICENSE file.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
